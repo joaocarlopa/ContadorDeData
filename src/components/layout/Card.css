@@ -3,7 +3,7 @@
     .topDentro {
         
         position: relative;
-        left: 220px;
+        left: 190pxpx;
         top: -150px;
     }
 
@@ -15,19 +15,19 @@
     .txtD {
         position: relative;
         top: -150px;
-        left: 130px;
+        left: 110px;
     }
 
     #btn {
         position: relative;
         top: 100px;
-        left: -20px;
+        left: 20pxpx;
     }
 
     .display {
         
         position: relative;
-        left: -250px;
+        left: -230px;
         top: -300px;
     }
 
