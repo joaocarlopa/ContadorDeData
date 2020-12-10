@@ -1,0 +1,186 @@
+@media (max-width: 813px) {
+   
+    .topDentro {
+        
+        position: relative;
+        left: 220px;
+        top: -150px;
+    }
+
+    .contM {
+        position: relative;
+        left: -355px;
+    }
+
+    .txtD {
+        position: relative;
+        top: -150px;
+        left: 130px;
+    }
+
+    #btn {
+        position: relative;
+        top: 100px;
+        left: -20px;
+    }
+
+    .display {
+        
+        position: relative;
+        left: -320px;
+        top: -300px;
+    }
+
+    #day {
+        position: relative;
+        left: -20px;
+    }
+
+    #hour {
+        position: relative;
+        left: -80px;
+    }
+
+    #min {
+        position: relative;
+        left: -150px;
+        
+    }
+
+
+    #sec {
+        position: relative;
+        left: -220px;
+       
+    }
+
+    .cor {
+        font-size: 25px;
+    }
+
+    .Card {
+        position: relative;
+        left: 18px;
+    }
+}
+
+
+
+.Card {
+    margin-top: 150px;
+    margin-right: 30px;
+    text-align: center;
+    
+}
+
+
+.Card_top {
+    font-size: 2em;
+    color: #21EB00;
+    text-decoration: none;
+}
+
+.Card_top:hover {
+    position: relative;
+    left: 1px;
+    filter: brightness(65%);
+}
+
+.date {
+    cursor: pointer;
+    margin-top: 10px;
+    text-indent: 10%;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #191A18;
+    color: gray;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 45px;
+    width: 300px;
+}
+
+.date:hover {
+    filter: brightness(65%);
+}
+
+#Dat {
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+
+.txt {
+    color: gray;
+    font-size: 1.5em;
+}
+
+.txt:hover {
+    filter: brightness(65%);
+    position: relative;
+    left: 1px;
+}
+
+
+.btn {
+    margin-top: 10px;
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: 20px;
+    background-color: #21EB00;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.btn:hover {
+
+    position: relative;
+    left: 1px;
+    filter: brightness(65%);
+}
+
+.topDentro a {
+    color: #21EB00;
+    font-size: 3em;
+    margin-left: 80px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+
+.topDentro a:hover {
+    position: relative;
+    left: 1px;
+    filter: brightness(65%);
+}
+
+.cont {
+    
+}
+
+.contM {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.display {
+    font-size: 3em;
+    margin-left: 320px;
+    margin-top: 100px;
+}
+
+.cor {
+    color: #21EB00;
+    
+}
+
