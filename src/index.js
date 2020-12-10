@@ -43,21 +43,33 @@ function retornaHora() {
                 let mesEscolhido = dados.slice(4, 6);
                 let diaEscolhido = dados.slice(6, 8);
                 let anoAtual = dataAtual.getFullYear();
+
                 
                 let diaAtual = dataAtual.getDate();
                 let converteAno = Number(anoEscolhido) - Number(anoAtual);
                 let totalAnos_Meses = (Number(mesEscolhido) * 30.4375) * converteAno;
                 let totalDias = Number(mesEscolhido) > Number(this.mes()) ? totalAnos_Meses + (Number(diaAtual) - Number(diaEscolhido)) :  totalAnos_Meses + (Number(diaEscolhido) - Number(diaAtual));
-               
-                
-                if (Number(anoEscolhido) <= Number(anoAtual)) {
+                if (Number(anoEscolhido) < Number(anoAtual)) {
                    
                  
-                    alert('Insira uma data válida e acima do ano atual!');
+                    alert('Insira uma data válida !');
                     window.location.reload(false);
                    
 
                 }
+                if (Number(anoEscolhido) === Number(anoAtual) && Number(diaEscolhido) <= Number(diaAtual)) {
+                   
+                 
+                    alert('Insira uma data válida !');
+                    window.location.reload(false);
+                   
+
+                }
+
+
+
+                
+                
                 
 
                 
