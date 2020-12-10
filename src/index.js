@@ -50,7 +50,7 @@ function retornaHora() {
                 let totalDias = Number(mesEscolhido) > Number(this.mes()) ? totalAnos_Meses + (Number(diaAtual) - Number(diaEscolhido)) :  totalAnos_Meses + (Number(diaEscolhido) - Number(diaAtual));
                
                 
-                if (Number(anoEscolhido) <= Number(anoAtual)) {
+                if (Number(anoEscolhido) < Number(anoAtual) && Number(mesEscolhido) < Number(this.mes())) {
                     alert('Insira uma data válida!');
                     window.location.reload(false);
 
