@@ -52,11 +52,11 @@ function retornaHora() {
                 
                 if (Number(anoEscolhido) < Number(anoAtual)) {
                     if (Number(mesEscolhido) >= Number(this.mes())) {
-                    if (Number(diaEscolhido) <= Number(diaAtual)) {
-                     alert('Insira uma data válida!');
-                     window.location.reload(false);
-                    } };
+                    if (Number(diaEscolhido) > Number(diaAtual)) {
                     return;
+                    } };
+                    alert('Insira uma data válida!');
+                    window.location.reload(false);
                    
 
                 }
