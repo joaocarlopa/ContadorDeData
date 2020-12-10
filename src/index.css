@@ -25,8 +25,7 @@ h2, h3 {
 
 .txtD:hover {
     filter: brightness(150%);
-    position: relative;
-    left: 1px;
+ 
 }
 
 .divMeio {
