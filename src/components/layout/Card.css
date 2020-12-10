@@ -159,12 +159,9 @@
     filter: brightness(65%);
 }
 
-.cont {
-    
-}
 
 .contM {
-    margin-left: 150px;
+    margin-left: 110px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
