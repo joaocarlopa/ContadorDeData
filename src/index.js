@@ -51,11 +51,9 @@ function retornaHora() {
                
                 
                 if (Number(anoEscolhido) < Number(anoAtual)) {
-                    if (Number(mesEscolhido) >= Number(this.mes())) {
-                    if (Number(diaEscolhido) > Number(diaAtual)) {
-                    return;
-                    } };
-                    alert('Insira uma data válida!');
+                   
+                 
+                    alert('Insira uma data válida e acima do ano atual!');
                     window.location.reload(false);
                    
 
