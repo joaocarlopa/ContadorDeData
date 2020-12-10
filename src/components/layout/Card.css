@@ -154,8 +154,6 @@
 
 
 .topDentro a:hover {
-    position: relative;
-    left: 1px;
     filter: brightness(65%);
 }
 
